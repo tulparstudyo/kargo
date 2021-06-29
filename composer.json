@@ -1,0 +1,17 @@
+{
+	"name": "tulparstudyo/kargo",
+	"description": "Tulparstudyo kargo common classses ",
+	"keywords": ["tulparstudyo", "extension","kargo"],
+	"type": "tulparstudyo-extension",
+	"license": "LGPL-3.0",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": "~7.1"
+	},
+    "autoload": {
+        "psr-4": {
+            "Tulparstudyo\\Kargo\\Clients\\": "clients/"
+        }
+    }
+}
